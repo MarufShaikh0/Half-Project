@@ -1,0 +1,38 @@
+/* Hero-Section Responsive Start */
+@media (min-width: 576px) {
+ .container {
+   max-width: 540px;
+ }
+}
+
+@media (min-width: 768px) {
+ .container {
+   max-width: 720px;
+ }
+ .hero-left{
+  width: 40%;
+ }
+ .hero-right{
+  width: 60%;
+ }
+}
+
+@media (min-width: 992px) {
+ .container {
+   max-width: 960px;
+ }
+}
+
+@media (min-width: 1200px) {
+ .container {
+   max-width: 1140px;
+ }
+}
+
+@media (min-width: 1400px) {
+ .container {
+   max-width: 1320px;
+ }
+}
+
+/* Hero-Section Responsive End */

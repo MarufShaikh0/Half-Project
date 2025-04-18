@@ -1,4 +1,90 @@
-/*  Start  */
+*{
+ font-family: "Roboto", sans-serif;
+ color: white;
+}
+body{
+ margin: 0;
+ min-height: 100vh;
+ background-color: #222;
+}
 
-/*  End  */
+/* Navbar Start  */
+.navbar{
+ position: sticky;
+ top: 0;
+ z-index: 1000;
+}
+.navbar .navbar-container{
+ display: flex;
+ align-items: center;
+ padding-top: 1rem;
+}
+.navbar .navbar-container .nav-left{
+ display: flex;
+}
+.navbar .navbar-container .nav-left .nav-left-logo{
+ border-radius: 50%;
+ margin: 0 1rem;
+}
+.navbar .navbar-container .nav-left .nav-left-title{
+ font-size: 20px;
+ font-weight: 700;
+ line-height: 1.5rem;
+ letter-spacing: 0.2rem;
+}
+.navbar .navbar-container .nav-right{
+ margin-left: auto;
+}
+.navbar .navbar-container .nav-right .nav-right-item-container{
+ display: flex;
+ flex-wrap: wrap;
+}
+.navbar .navbar-container .nav-right .nav-right-item{
+ list-style: none;
+ margin: 1rem;
+}
+.navbar .navbar-container .nav-right .nav-right-item-link{
+ text-decoration: none;
+}
+.navbar .navbar-container .nav-right .nav-right-item-link:hover{
+ color: #3b82fc;
+}
+/* Navbar End  */
+
+/* Hero Section Start */
+.container{
+ margin-left: auto;
+ margin-right: auto;
+ width: 100vw;
+}
+.hero-container{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: center;
+ height: 100vh;
+}
+.hero-left ,
+.hero-right{
+ width: 100%;
+}
+.container .hero-container .hero-left .hero-left-image{
+ max-width: 100%;
+ height: auto;
+ margin: 0 auto;
+ display: block;
+}
+.container .hero-container .hero-right-title{
+ font-size: 3rem;
+ letter-spacing: 0.2rem;
+ font-weight: 400;
+ padding-left: 1rem;
+}
+.container .hero-container .hero-right-description{
+ font-size: 1rem;
+ text-align: justify;
+ line-height: 2rem;
+ padding: 0 1rem;
+}
+/* Hero Section End */
 
