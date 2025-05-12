@@ -1,14 +1,115 @@
 
-
 *{
-
+ 
+ color:white
 }
 
 body{
-
+ font-family: "Roboto", sans-serif;
+ min-height: 100vh;
+ background-color: #222222;
 }
 
-/* Section  Start  */
+/*  Resumi  Start  */
+
+.container{
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.resume-container {
+ margin-top: 1rem;
+ padding: 6.5rem 1rem 0 2rem;
+ min-height: 100vh;
+}
+
+.title{
+ font-size: 2rem;
+ font-weight: 400;
+ line-height: normal;
+ text-align: center;
+}
+
+.resumi-sub-container{
+ display: grid;
+ grid-template-columns: repeat(2 ,minmax(0 ,1fr));
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    margin-bottom: 0;
+}
+
+.line{
+ width: 100px;
+ height: 2px;
+ background-color: #333333;
+ margin: 0.2rem 0 2rem 0;
+}
+
+.inner-line{
+ width: 36px;
+ height: 2px;
+ background-color: rgb(59, 130, 246);
+}
+
+.resume-image{
+    display: block;
+    margin: 0 auto;
+}
+
+.resume-list{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0, 1fr));
+    align-items: center;
+    border-left: 1px solid #333333;
+}
+
+.resume-duration-container{
+ display: flex;
+ align-items: center;
+ padding-left: 2rem;
+}
+
+.round-div{
+ height: 24px;
+ width: 24px;
+ background-color: #222;
+ border: 1px solid #333;
+ border-radius: 50%;
+ position: absolute;
+ left: -12.5px;
+}
+
+.resume-duration{
+ background-color: black;
+ padding: 0.5rem 1rem;
+ border-radius: 20px;
+ font-size: 0.875rem;
+ line-height: 1.25rem;
+ text-align: center;
+ width: auto;
+ margin: 1rem 0;
+}
+
+.resume-company{
+ font-size: 1rem;
+ line-height: 1.5rem;
+ margin-bottom: 0.5rem;
+}
+
+.resume-degignation{
+ color: rgb(128, 128, 128);
+ font-size: 0.875rem;
+ line-height: 1.25rem;
+ margin: 0;
+}
 
 /* Section End  */
 
